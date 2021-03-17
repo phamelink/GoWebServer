@@ -1,0 +1,25 @@
+#navbar {
+    overflow: hidden;
+    background-color: #941732;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color:  floralwhite;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-family: itc-avant-garde-gothic-pro, Futura, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height:1.1;
+    border-left: 1px solid floralwhite;
+}
+
+#navbar a:hover {
+    color: #e54f4e;
+}
+
+body {
+    background-color: #e54f4e;
+}

@@ -1,0 +1,7 @@
+{{ define "content"}}
+    <ul>
+        {{range $i, $user := . }}
+            <li> {{ $user.Email }} hi</li>
+        {{ end }}
+    </ul>
+{{ end }}
