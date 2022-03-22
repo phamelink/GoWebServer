@@ -2,6 +2,7 @@ package database
 
 import (
 	"database/sql"
+	"fmt"
 	"time"
 	_ "github.com/lib/pq"
 )
@@ -11,8 +12,9 @@ var Db *sql.DB
 func init() {
 	var err error
 	Db, err = sql.Open("postgres",
-		"user=gwp dbname=gwp password=marcus01 sslmode=disable")
+		"user=philip dbname=gwp password=marcus01 sslmode=disable")
 	if err != nil {
+		fmt.Print("WOWOOW \n")
 		panic(err)
 	}
 }
